@@ -1,0 +1,14 @@
+function calculateRisk(){
+
+let balance =
+parseFloat(document.getElementById("balance").value);
+
+let risk =
+parseFloat(document.getElementById("risk").value);
+
+let amount = balance * risk / 100;
+
+document.getElementById("result").innerHTML =
+"Maximum Risk = $" + amount.toFixed(2);
+
+}
