@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:#0d1117;
+    color:#fff;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#161b22;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    color:#FFD700;
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#FFD700;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+    background:linear-gradient(135deg,#111,#1c1c1c);
+}
+
+.hero h1{
+    font-size:55px;
+    color:#FFD700;
+}
+
+.hero p{
+    margin:20px 0;
+    font-size:20px;
+    color:#ccc;
+}
+
+.btn{
+    display:inline-block;
+    margin:10px;
+    padding:14px 30px;
+    background:#FFD700;
+    color:#000;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:white;
+}
+
+section{
+    padding:70px 8%;
+}
+
+.card{
+    background:#161b22;
+    padding:20px;
+    border-radius:12px;
+    margin:15px 0;
+}
+
+footer{
+    background:#161b22;
+    text-align:center;
+    padding:20px;
+    color:#bbb;
+}
+
+.whatsapp-btn{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    background:#25D366;
+    color:white;
+    padding:15px 20px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+}
