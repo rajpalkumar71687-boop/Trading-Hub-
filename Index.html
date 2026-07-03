@@ -16,4 +16,84 @@
 
     <a href="#markets" class="btn">📈 Live Market</a>
     <a href="#signals" class="btn">💹 Signals</a>
+</section><section id="markets">
+
+<h2 style="text-align:center;color:#FFD700;">📈 Live Market Dashboard</h2>
+
+<div class="card">
+<h3>🥇 Gold (XAU/USD)</h3>
+<p>Live Gold Market Analysis</p>
+</div>
+
+<div class="card">
+<h3>💹 Forex Market</h3>
+<p>EUR/USD • GBP/USD • USD/JPY</p>
+</div>
+
+<div class="card">
+<h3>₿ Bitcoin</h3>
+<p>BTC/USDT Live Updates</p>
+</div>
+
+<div class="card">
+<h3>🪙 Ethereum</h3>
+<p>ETH/USDT Live Updates</p>
+</div>
+
+</section>
+<section>
+
+<h2 style="text-align:center;color:#FFD700;">₿ Bitcoin Live Chart</h2>
+
+<iframe
+src="https://s.tradingview.com/widgetembed/?symbol=BINANCE:BTCUSDT&interval=60&theme=dark&style=1"
+width="100%"
+height="500"
+frameborder="0">
+</iframe>
+
+</section><section>
+
+<h2 style="text-align:center;color:#FFD700;">🥇 Gold (XAU/USD)</h2>
+
+<iframe
+src="https://s.tradingview.com/widgetembed/?symbol=OANDA:XAUUSD&interval=60&theme=dark&style=1"
+width="100%"
+height="500"
+frameborder="0">
+</iframe>
+
+</section><section>
+
+<h2 style="text-align:center;color:#FFD700;">💹 Forex (EUR/USD)</h2>
+
+<iframe
+src="https://s.tradingview.com/widgetembed/?symbol=FX:EURUSD&interval=60&theme=dark&style=1"
+width="100%"
+height="500"
+frameborder="0">
+</iframe>
+
+</section><section id="calculator">
+
+<h2 style="text-align:center;color:#FFD700;">
+🧮 Trading Calculator
+</h2>
+
+<div class="card">
+
+<label>Account Balance ($)</label><br>
+<input type="number" id="balance" placeholder="1000"><br><br>
+
+<label>Risk (%)</label><br>
+<input type="number" id="risk" placeholder="2"><br><br>
+
+<button class="btn" onclick="calculateRisk()">
+Calculate
+</button>
+
+<h3 id="result"></h3>
+
+</div>
+
 </section>
